@@ -5,7 +5,7 @@ package net.lecnam.ussi2a.tp5;
  */
 public class Bibliotheque {
     private Livre[] livres = new Livre[100];
-    private int nbLivres = 0;
+    public int nbLivres = 0;
 
     public void ajouterLivre(Livre livre) {
         livres[nbLivres] = livre;

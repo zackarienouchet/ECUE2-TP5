@@ -9,9 +9,9 @@ import java.time.Period;
  */
 public class Auteur {
 
-    private String nom;
-    private String prenom;
-    private LocalDate dateNaissance;
+    private final String nom;
+    private final String prenom;
+    private final LocalDate dateNaissance;
 
     public Auteur(String nom, String prenom, LocalDate dateNaissance) {
 

@@ -20,15 +20,15 @@ Il faut mieux coder ses classes
 ## Partie 2
 
 **2.1** :
-Je n'ai pas ajouté de setters car les setters servent à modifier des getters déjà crées, Or dans l'exercice il était demandé de créer des accesseurs, donc des getters.
+Je n'ai pas ajouté de setters car les setters servent à modifier des getters déjà crées, Or dans l'exercice il était demandé de créer des accesseurs, donc des getters. <br> br>
 **2.2** :
 
 ## Partie 3
 
 **3.1** :
-
+Il n'y a pas de setter setNbDisponibles car le nombre de livre disponible doit être calculé et non indiqué. Si l'on fait ça, ça reviendrait à perdre toute l'automatisation.
 **3.2** :
-
+Le plus simple serait de créer une fonction qui contient la vérification du titre, puis l'appeler dans setTitre().
 ## Partie 4
 
 **4.1** :
