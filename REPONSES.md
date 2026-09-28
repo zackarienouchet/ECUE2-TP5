@@ -1,22 +1,22 @@
 # TP5 : Réponses
 
-Nom / Prénom :
+Nom / Prénom : Nouchet Zackarie
 
 ## Partie 1 : Enquête
 
-| Étape | Ce qui est anormal | Ligne responsable | Classe qui aurait dû l'empêcher |
-|-------|--------------------|-------------------|---------------------------------|
-| 1     |                    |                   |                                 |
-| 2     |                    |                   |                                 |
-| 3     |                    |                   |                                 |
-| 4     |                    |                   |                                 |
-| 5     |                    |                   |                                 |
-| 6     |                    |                   |                                 |
+| Étape | Ce qui est anormal                            | Ligne responsable | Classe qui aurait dû l'empêcher                              |
+|-------|-----------------------------------------------|-------------------|--------------------------------------------------------------|
+| 1     | Verne à tous les noms                         |public static String nom| Ne pas mettre static                                         |
+| 2     | -2/1 livres disponibles                       |this.nbDisponibles = nbExemplaires| Mettre nbDisponibles dans les arguments de la fonction Livre |
+| 3     | Jean Dupont a -87 ans                         |Auteur inconnu = new Auteur("Dupont", "Jean", LocalDate.of(2090, 1, 1))| Rentrer une ddn valide                                       |
+| 4     | Jules Dupont                                  |public static String nom| Static lors de l'initialisation de la variable               |
+| 5     | 1 seul livre dans la bibliothèque             |bib.nbLivres = 1| Enlever cette ligne                                          |
+| 6     | Le stagiaire crée 100 livres avec le même nom|bib.nbLivres = 100| Mettre plus de livres dans la BDD|
 
 **1.1** :
-
+Tous les auteurs s'appelent Verne dans l'étape 1 car nom est une classe static donc elle ne garde que le dernier nom enregistré. Dupont est le nom enregistré à l'étape 3 donc il est gardé pour l'étape 4. <br> <br>
 **1.2** :
-
+Il faut mieux coder ses classes
 ## Partie 2
 
 **2.1** :
