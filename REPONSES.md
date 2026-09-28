@@ -20,7 +20,7 @@ Il faut mieux coder ses classes
 ## Partie 2
 
 **2.1** :
-
+Je n'ai pas ajouté de setters car les setters servent à modifier des getters déjà crées, Or dans l'exercice il était demandé de créer des accesseurs, donc des getters.
 **2.2** :
 
 ## Partie 3
